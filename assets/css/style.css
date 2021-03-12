@@ -1,0 +1,11 @@
+body {
+    /* background image used */
+    background-image: url('../images/background/bgLarge.png');
+    /* specific height */
+    min-height: 100vh;
+    /* background */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
