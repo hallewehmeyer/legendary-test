@@ -8,6 +8,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 5;
+}
+
+/* maroon-side */
+.maroon-side {
+    background-color: #611818;
+    z-index: 10;
+    height: 100vh;
 }
 
 /* Social Media */
