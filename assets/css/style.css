@@ -9,3 +9,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Social Media */
+.social-media {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#facebook, #instagram {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
