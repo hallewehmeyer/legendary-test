@@ -23,8 +23,13 @@ body {
     height: 100vh;
 }
 
-.title-heading {
+/* fonts */
+.title-font {
     font-family: 'Playfair Display', serif;
+}
+
+/* title and sub-button */
+.title-heading {
     font-size: 12em;
     text-shadow: 0 2px 4px #00000080;
     z-index: 15;
@@ -41,6 +46,20 @@ body {
     display: flex;
     align-items: center;
     margin-top: -40px;
+}
+
+/* box-explore */
+.box-explore {
+    background-color: #d8d8d8;
+    z-index: 20;
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+}
+
+.box-title {
+    font-size: 48px;
+    letter-spacing: 2px;
 }
 
 /* Social Media */
