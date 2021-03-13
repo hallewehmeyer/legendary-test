@@ -48,11 +48,9 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 100px;
 }
 
-#facebook, #instagram {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 50%;
-    margin-top: 10px;
+.social-media span {
+    margin-top: 20px;
 }
