@@ -1,3 +1,8 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+/* --- */
+
+
 body {
     /* background image used */
     background-image: url('../images/background/bgLarge.png');
@@ -16,6 +21,26 @@ body {
     background-color: #611818;
     z-index: 10;
     height: 100vh;
+}
+
+.title-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 12em;
+    text-shadow: 0 2px 4px #00000080;
+    z-index: 15;
+    color: #d8d8d8;
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+}
+
+.sub-button {
+    font-size: 18px;
+    color: #d8d8d8;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
 }
 
 /* Social Media */
