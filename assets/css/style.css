@@ -20,7 +20,7 @@ body {
 .maroon-side {
     background-color: #611818;
     z-index: 10;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* fonts */
@@ -30,22 +30,22 @@ body {
 
 /* title and sub-button */
 .title-heading {
-    font-size: 12em;
+    font-size: 20vw !important;
     text-shadow: 0 2px 4px #00000080;
     z-index: 15;
     color: #d8d8d8;
     display: flex;
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
 }
 
 .sub-button {
-    font-size: 18px;
+    font-size: 3vw;
     color: #d8d8d8;
     font-family: sans-serif;
     display: flex;
     align-items: center;
-    margin-top: -40px;
+    margin-top: -20px;
     cursor: pointer;
 }
 
@@ -105,4 +105,21 @@ body {
 
 .social-media span {
     margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .title-heading {
+        bottom: 40%;
+        font-size: 22vw !important;
+    }
+
+    .sub-button {
+        font-size: 7vw;
+        margin-top: -10px;
+    }
+
+    .fa-2x {
+        font-size: 1em !important;
+    }
 }
