@@ -1,11 +1,11 @@
-$('.box-explore').hide();
+$(document).ready(function(){
+    $('.box-explore').hide();
+    $(".title-heading").show(500);
+})
+
 
 function moreDetails() {
-    $('.title-heading').hide();
+    $('.title-heading').hide(500);
     $('.box-explore').show();
-}
-
-function closeButton() {
-    $('.title-heading').show();
-    $('.box-explore').hide();
+    AOS.init();
 }

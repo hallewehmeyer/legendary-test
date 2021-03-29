@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legendary Test</title>
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- animations library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- maroon background -->
     <div class="container-fluid">
@@ -22,27 +27,41 @@
     </div>
 
     <!-- title - Explore -->
-    <div class="title-heading container-fluid">
+    <div class="title-heading container-fluid" style="display: none;">
         <div class="row">
             <div class="col-10 offset-1 col-sm-7 offset-sm-2 main-title title-font">
                 Explore
             </div>
-            <div class="col-10 offset-1 col-sm-7 offset-sm-2 sub-button" onclick="moreDetails()"><i class="fas fa-plus-circle fa-2x"></i>&#160;&#160;More Details</div>
+            <div class="col-10 offset-1 col-sm-7 offset-sm-2 sub-button" onclick="moreDetails()"><i
+                    class="fas fa-plus-circle fa-2x"></i>&#160;&#160;More Details</div>
         </div>
     </div>
 
     <!-- box -->
-    <div class="col-md-6 offset-md-3 box-explore bg-light p-2">
+    <div class="col-md-6 offset-md-3 box-explore bg-light p-2" data-aos="fade-up-right" data-aos-offset="200"
+        data-aos-delay="50" data-aos-duration="500" data-aos-easing="ease-in-out-back" data-aos-mirror="true"
+        data-aos-once="false" data-aos-anchor-placement="bottom-left">
         <div class="container-fluid p-3">
             <div class="row">
                 <div class="col-sm-1 offset-sm-11">
-                    <div class="close-button" onclick="closeButton()"><i class="fas fa-times fa-2x" style="color: #611818;"></i></div>
+                    <div class="close-button" onclick="window.location.reload()"><i class="fas fa-times fa-2x"
+                            style="color: #611818;"></i></div>
                 </div>
                 <div class="col-12 pt-3">
                     <div class="h1 title-font box-title" style="color: #611818;">Explore</div>
-                    <hr style="background: linear-gradient(to right, #611818, #611818, #611818, #F7BB97, #ffffff); height: 5px;"/>
-                    <p style="font-size: 12px; line-height: 24px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
-                    <button class="gradient-button gradient-button-1" onclick="window.open('http://www.udundi.com','_blank','resizable=yes')">READ MORE</button>
+                    <hr
+                        style="background: linear-gradient(to right, #611818, #611818, #611818, #F7BB97, #ffffff); height: 5px;" />
+                    <p style="font-size: 12px; line-height: 24px;">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                        dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                        labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                    </p>
+                    <button class="gradient-button gradient-button-1"
+                        onclick="window.open('http://www.udundi.com','_blank','resizable=yes')">READ MORE</button>
                 </div>
             </div>
         </div>
@@ -64,6 +83,8 @@
         </a>
     </div>
     <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
